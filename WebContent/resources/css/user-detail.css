@@ -1,0 +1,13 @@
+form input[type="text"],
+form input[type="email"],
+form input[type="password"]{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	height: 20px;
+	font-size: 13px;
+	border: 2px solid #2AC37D; 
+}
+
+form .in-long{
+	width: 100%;
+}

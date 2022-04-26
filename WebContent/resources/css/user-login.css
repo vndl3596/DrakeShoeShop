@@ -1,0 +1,116 @@
+.login-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: whitesmoke;
+}
+
+.login-container .login-content {
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+  width: 400px;
+  height: 600px;
+}
+
+.login-container .login-content img {
+  width: 300px;
+  border-radius: 20px;
+}
+
+.login-container .login-content h1 {
+  font-size: 30px;
+}
+
+.login-container .login-content .login-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+}
+
+.login-container .login-content .login-form input {
+  margin: 10px 0px;
+  border: solid 1px #2AC37D;
+  display: block;
+  border-radius: 30px; 
+  padding-left: 10px;
+}
+
+.login-container .login-content .login-form input:focus {
+  border: solid 1px red;
+  width: 220px;
+}
+
+.login-container .login-content .login-form .usern input {
+  height: 25px;
+}
+
+.login-container .login-content .login-form button {
+  width: 90px;
+  height: 30px;
+  background-color: #2AC37D;
+  border: #2AC37D 2px solid;
+  color: white;
+}
+
+.login-container .login-content .login-form button:hover {
+  background-color: transparent;
+  border: #2AC37D 2px solid;
+  color: #2AC37D;
+  transition: 0.5s all;
+  font-weight: bold;
+}
+
+.login-container .login-content .login-bottom {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-container .login-content .login-bottom a {
+  color: red;
+}
+
+.login-container .login-content .login-bottom button {
+  background: none;
+  border: none;
+  color: #3E636A;
+}
+
+.login-container .login-content .login-bottom button:hover {
+  color: #2AC37D;
+}
+/*# sourceMappingURL=user-lg.css.map */
